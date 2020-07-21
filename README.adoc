@@ -1,0 +1,15 @@
+= Hackerrank > `Projects`
+Bora Oren
+July 21, 2020
+:toc:
+:icons: font
+:imagesdir: documents/images
+
+These are link:https://www.hackerrank.com[Hackerrank,window="_blank"] projects answers with test cases.
+
+== Projects
+
+|===
+|Project Type
+
+|link:data-structures/README.adoc[Data Structures]

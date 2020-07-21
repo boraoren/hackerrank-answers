@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id "application"
+}
+
+group 'com.hackerrank'
+version '1.0.0'
+
+sourceCompatibility = 8
+targetCompatibility = 8
+
+ext {
+    javaMainClass = "com.hackerrank.datastructures.arraysds.ArrayDSRun"
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+run{
+    standardInput = System.in
+}
+
+repositories {
+    jcenter()
+    maven {
+        url "https://repo1.maven.org/maven2/"
+    }
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.6.2')
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    testCompile group: 'org.hamcrest', name: 'hamcrest', version: '2.2'
+
+}
+
+test {
+    useJUnitPlatform()
+    reports {
+        junitXml.enabled = false
+        html.enabled = true
+    }
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}

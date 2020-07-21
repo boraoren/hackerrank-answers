@@ -1,0 +1,12 @@
+= Hackerrank > link:../../README.adoc[Projects] > link:../README.adoc[Data Structures] > `Arrays-DS`
+Bora Oren
+July 21, 2020
+:toc:
+:icons: font
+:imagesdir: documents/images
+
+:domain: link:https://www.hackerrank.com/domains/data-structures[data structures,window="_blank"]
+:problem_title: arrays-ds
+:problem: link:https://www.hackerrank.com/challenges/{problem_title}/problem[arrays-ds,window="_blank"]
+:inputs: You need 2 inputs. First is ${TOTAL_NUMBER_OF_INPUTS} (for example 3) and second is ${NUMBERS} space between them (for example 1 2 3).
+include::../../documentation/templates/common-template.adoc[]

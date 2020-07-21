@@ -1,0 +1,9 @@
+This is link:https://www.hackerrank.com[Hackerrank, window="_blank"] / {domain} / {problem} answer with test cases.
+
+== Run {problem_title} Project
+2. run `.gradlew run`
+3. {inputs}
+
+== Data structures project tests with report
+1. run `./gradlew test`
+2. open `./build/reports/tests/test/index.html`
