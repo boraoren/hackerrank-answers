@@ -12,4 +12,4 @@ These are link:https://www.hackerrank.com[Hackerrank,window="_blank"] projects a
 |===
 |Project Type
 
-|link:data-structures/README.adoc[Data Structures]
+|link:documentation/data-structures.adoc[Data Structures]

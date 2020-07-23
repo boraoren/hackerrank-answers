@@ -1,0 +1,35 @@
+= Hackerrank > link:../README.adoc[Projects] > `Data Structures`
+Bora Oren
+July 21, 2020
+:toc:
+:icons: font
+:imagesdir: ../documentation/images
+
+These are link:https://www.hackerrank.com/domains/data-structures[Hackerrank Data Structures,window="_blank"]
+topic question's answers with test cases.
+
+== Projects
+
+|===
+|Project Name |Project Type |Project Difficulty |Max Score
+
+|link:arrays-ds/README.adoc[Arrays - DS]
+|Arrays
+|Easy
+|10
+
+| ...
+|
+|
+|
+
+|===
+
+
+== All Data Structures Projects Test Reports
+1. run `./gradlew test`
+2. open `./build/reports/tests/test/index.html`
+
+
+== Run Micro Benchmark
+image::underConstruction.gif[Under Construction,100]
