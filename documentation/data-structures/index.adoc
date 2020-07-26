@@ -1,9 +1,9 @@
-= Hackerrank > link:../README.adoc[Projects] > `Data Structures`
+= Hackerrank > link:../../README.adoc[Domains] > `Data Structures`
 Bora Oren
 July 21, 2020
 :toc:
 :icons: font
-:imagesdir: ../documentation/images
+:imagesdir: ../images
 
 These are link:https://www.hackerrank.com/domains/data-structures[Hackerrank Data Structures,window="_blank"]
 topic question's answers with test cases.
@@ -11,9 +11,9 @@ topic question's answers with test cases.
 == Projects
 
 |===
-|Project Name |Project Type |Project Difficulty |Max Score
+|Name |Type |Difficulty |Max Score
 
-|link:arrays-ds/README.adoc[Arrays - DS]
+|link:arrays-ds.adoc[Arrays - DS]
 |Arrays
 |Easy
 |10

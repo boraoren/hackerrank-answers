@@ -1,4 +1,4 @@
-= Hackerrank > `Projects`
+= Hackerrank > `Domains`
 Bora Oren
 July 21, 2020
 :toc:
@@ -7,9 +7,9 @@ July 21, 2020
 
 These are link:https://www.hackerrank.com[Hackerrank,window="_blank"] projects answers with test cases.
 
-== Projects
+== Domains
 
 |===
-|Project Type
+|Type
 
-|link:documentation/data-structures.adoc[Data Structures]
+|link:documentation/data-structures/index.adoc[Data Structures]
