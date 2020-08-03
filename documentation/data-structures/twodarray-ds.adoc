@@ -1,25 +1,30 @@
-= Hackerrank > link:../../README.adoc[Domains] > link:./index.adoc[Data Structures] > `Arrays-DS`
+= Hackerrank > link:../../README.adoc[Domains] > link:./index.adoc[Data Structures] > `2D Array-DS`
 Bora Oren
-July 21, 2020
 :toc:
 :icons: font
 :imagesdir: documents/images
 
 :domain_title: data structures
 :domain_link: link:https://www.hackerrank.com/domains/data-structures[{domain_title},window="_blank"]
-:problem_title: arrays-ds
-:problem: link:https://www.hackerrank.com/challenges/{problem_title}/problem[arrays-ds,window="_blank"]
+:problem_title: 2d-array
+:problem: link:https://www.hackerrank.com/challenges/{problem_title}/problem[2d-array,window="_blank"]
 :inputs: You need 2 inputs. First is ${TOTAL_NUMBER_OF_INPUTS} (for example 3) and second is ${NUMBERS} space between them (for example 1 2 3).
 
 This is link:https://www.hackerrank.com[Hackerrank, window="_blank"] / {domain_link} / {problem} answer with test cases.
 
 == Run {problem_title} Project
 // run
-. run `./gradlew arrayDS`
+. run `./gradlew twoArrayDS`
 // inputs
-. You need 2 inputs
-.. `TOTAL NUMBER OF INPUTS` , for example `3`
-.. `NUMBERS as array` , for example `[1 2 3]`
+. You need `6 x 6 2D Array` , for example
+```
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+```
 
 
 == {domain_title} project tests with report

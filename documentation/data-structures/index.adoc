@@ -18,10 +18,10 @@ topic question's answers with test cases.
 |Easy
 |10
 
-| ...
-|
-|
-|
+|link:twodarray-ds.adoc[2D Array - DS]
+|Arrays
+|Easy
+|15
 
 |===
 
