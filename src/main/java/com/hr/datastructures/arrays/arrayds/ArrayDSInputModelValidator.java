@@ -1,4 +1,4 @@
-package com.hr.datastructures.arrays.arraysds;
+package com.hr.datastructures.arrays.arrayds;
 
 
 import com.common.exceptions.ConstraintValidationException;

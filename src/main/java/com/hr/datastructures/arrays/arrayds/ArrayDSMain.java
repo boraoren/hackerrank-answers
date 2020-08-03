@@ -1,16 +1,16 @@
-package com.hr.datastructures.arrays.arraysds;
+package com.hr.datastructures.arrays.arrayds;
 
 import java.util.Scanner;
 
-public class ArrayDSRun {
+public class ArrayDSMain {
 
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
         ArrayDSInputModel arrayDSInputModel =
-                new ArrayDSInputModel(ArrayDSRun.insertTotalNumberOfInput(),
-                        ArrayDSRun.insertNumbers());
+                new ArrayDSInputModel(ArrayDSMain.insertTotalNumberOfInput(),
+                        ArrayDSMain.insertNumbers());
 
         ArrayDS arrayDS = new ArrayDS();
         String reversedNumbers = arrayDS
