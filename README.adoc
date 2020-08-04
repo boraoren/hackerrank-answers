@@ -13,3 +13,4 @@ These are link:https://www.hackerrank.com[Hackerrank,window="_blank"] projects a
 |Type
 
 |link:documentation/data-structures/index.adoc[Data Structures]
+|link:documentation/algorithms/index.adoc[Algorithms]

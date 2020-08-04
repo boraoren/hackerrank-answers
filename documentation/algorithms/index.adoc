@@ -1,0 +1,31 @@
+= Hackerrank > link:../../README.adoc[Domains] > `Algorithms`
+Bora Oren
+July 21, 2020
+:toc:
+:icons: font
+:imagesdir: ../images
+
+These are link:https://www.hackerrank.com/domains/algorithms[Hackerrank Algorithms,window="_blank"]
+topic question's answers with test cases.
+
+== Projects
+
+|===
+|Name |Type |Difficulty |Max Score |To Run
+
+|link:simple-array-sum.adoc[Simple Array Sum]
+|Algorithms
+|Easy
+|10
+|./gradlew simpleArraySum
+
+|===
+
+
+== All Algorithms' Projects Test Reports
+1. run `./gradlew test`
+2. open `./build/reports/tests/test/index.html`
+
+
+== Run Micro Benchmark
+image::underConstruction.gif[Under Construction,100]

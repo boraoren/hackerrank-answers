@@ -28,9 +28,9 @@ test {
     }
 }
 
-task arrayDS(type: JavaExec) {
+task arraysDS(type: JavaExec) {
     group "hackerrank"
-    description "Run Array DS Application"
+    description "Run Arrays / Array DS Application"
     main "com.hr.datastructures.arrays.arrayds.ArrayDSMain"
     classpath sourceSets.main.runtimeClasspath
     standardInput = System.in
@@ -38,14 +38,14 @@ task arrayDS(type: JavaExec) {
     doFirst {
         print 'You need 2 inputs\n' +
                 '1. TOTAL NUMBER OF INPUTS , for example 3\n' +
-                '2. NUMBERS as array , for example [1 2 3]\n'
+                '2. NUMBERS as array , for example 1 2 3\n'
     }
 
 }
 
 task twoArrayDS(type: JavaExec) {
     group "hackerrank"
-    description "Run Two Array DS Application"
+    description "Run Arrays / Two Array DS Application"
     classpath sourceSets.main.runtimeClasspath
     main "com.hr.datastructures.arrays.twodarrayds.TwoArrayDSMain"
     standardInput = System.in
@@ -61,3 +61,19 @@ task twoArrayDS(type: JavaExec) {
     }
 
 }
+
+task simpleArraySum(type: JavaExec) {
+    group "hackerrank"
+    description "Run Algorithms / Simple Array Sum"
+    main "com.hr.algorithms.warmup.simplearraysum.SimpleArraySumMain"
+    classpath sourceSets.main.runtimeClasspath
+    standardInput = System.in
+
+    doFirst {
+        print 'You need 2 inputs\n' +
+                '1. TOTAL NUMBER OF DUMBBELLS , for example 3\n' +
+                '2. WEIGHTS OF DUMBBELLS , for example 1 2 3\n'
+    }
+
+}
+

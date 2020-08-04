@@ -11,17 +11,19 @@ topic question's answers with test cases.
 == Projects
 
 |===
-|Name |Type |Difficulty |Max Score
+|Name |Type |Difficulty |Max Score |To Run
 
 |link:arrays-ds.adoc[Arrays - DS]
 |Arrays
 |Easy
 |10
+|./gradlew arraysDS
 
 |link:twodarray-ds.adoc[2D Array - DS]
 |Arrays
 |Easy
 |15
+|./gradlew twoArrayDS
 
 |===
 

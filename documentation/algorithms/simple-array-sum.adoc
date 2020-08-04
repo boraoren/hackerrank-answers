@@ -1,0 +1,34 @@
+= Hackerrank > link:../../README.adoc[Domains] > link:./index.adoc[Algorithms] > `Simple Array Sum`
+:toc:
+:icons: font
+:imagesdir: documents/images
+
+:domain_title: algorithms
+:domain_link: link:https://www.hackerrank.com/domains/algorithms/[{domain_title},window="_blank"]
+:problem_title: simple-array-sum
+:problem: link:https://www.hackerrank.com/challenges/{problem_title}/problem/[simple array sum,window="_blank"]
+
+This is link:https://www.hackerrank.com[Hackerrank, window="_blank"] / {domain_link} / {problem} answer with test cases.
+
+== Story that is converted from hackerrank's question
+* There is a fitness center.
+* There is a room in the fitness center.
+* There are a lot of dumbbells
+with different weights in the room
+* There is an employee who is responsible
+to sum dumbbells in a room
+in the fitness center.
+
+== Run {problem_title} Project
+// run
+. run `./gradlew simpleArraySum`
+// inputs
+. You need 2 inputs
+.. `TOTAL NUMBER OF DUMBBELLS` , for example `3`
+.. `WEIGHTS OF DUMBBELLS` , for example `1, 2, 3`
+
+
+== {domain_title} project tests with report
+1. run `./gradlew test`
+2. open `./build/reports/tests/test/index.html`
+
