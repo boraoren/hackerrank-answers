@@ -1,4 +1,4 @@
-package com.hr.datastructures.arrays.arrayds;
+package com.util;
 
 import java.util.Arrays;
 
@@ -10,4 +10,5 @@ public class StringUtil {
                 .mapToInt(Integer::parseInt)
                 .toArray();
     }
+
 }

@@ -1,6 +1,5 @@
-package com.hr.datastructures.arrays.arrayds;
+package com.util;
 
-import com.util.StringUtil;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
