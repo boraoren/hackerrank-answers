@@ -1,0 +1,37 @@
+= Hackerrank > link:../../README.adoc[Domains] > link:./index.adoc[Algorithms] > `Compare The Triplets`
+:toc:
+:icons: font
+:imagesdir: documents/images
+
+:domain_title: algorithms
+:domain_link: link:https://www.hackerrank.com/domains/algorithms/[{domain_title},window="_blank"]
+:problem_title: compare-the-triplets
+:problem: link:https://www.hackerrank.com/challenges/{problem_title}/problem/[compare the triplets,window="_blank"]
+
+This is link:https://www.hackerrank.com[Hackerrank, window="_blank"] / {domain_link} / {problem} answer with test cases.
+
+== Story that is converted from hackerrank's question
+* We have 2 developers in contest.
+Their names are
+- Alice and
+- Bob.
+
+* Alice and Bob create their problem for hackerrank.
+
+* We have reviewer for this competition.
+- Reviewer will review contestants and
+- print scores for them.
+
+
+== Run {problem_title} Project
+// run
+. run `./gradlew compareTheTriplets`
+// inputs
+. You need 2 inputs
+.. `1. DEVELOPER ALICE REVIEWED PROBLEM RATE BY CATEGORIES POINTS,` , for example `17 28 30`
+.. `2. DEVELOPER BOB REVIEWED PROBLEM RATE BY CATEGORIES POINTS` , for example `99 16 8`
+
+== {domain_title} project tests with report
+1. run `./gradlew test`
+2. open `./build/reports/tests/test/index.html`
+

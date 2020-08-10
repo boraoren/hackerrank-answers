@@ -19,6 +19,11 @@ topic question's answers with test cases.
 |10
 |./gradlew simpleArraySum
 
+|link:compare-the-triplets.adoc[Compare the triplets]
+|Algorithms
+|Easy
+|10
+|./gradlew compareTheTriplets
 |===
 
 

@@ -77,3 +77,18 @@ task simpleArraySum(type: JavaExec) {
 
 }
 
+
+task compareTheTriplets(type: JavaExec) {
+    group "hackerrank"
+    description "Run Algorithms / Compare The Triplets"
+    main "com.hr.algorithms.warmup.comparethetriplets.CompareTheTripletsMain"
+    classpath sourceSets.main.runtimeClasspath
+    standardInput = System.in
+
+    doFirst {
+        print 'You need 2 inputs\n' +
+                '1. DEVELOPER ALICE REVIEWED PROBLEM RATE BY CATEGORIES POINTS, for example 17 28 30\n' +
+                '2. DEVELOPER BOB REVIEWED PROBLEM RATE BY CATEGORIES POINTS, for example 99 16 8\n'
+    }
+
+}
