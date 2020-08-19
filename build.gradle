@@ -92,3 +92,20 @@ task compareTheTriplets(type: JavaExec) {
     }
 
 }
+
+
+task leftRotation(type: JavaExec) {
+    group "hackerrank"
+    description "Run Arrays / Left Rotation"
+    main "com.hr.datastructures.arrays.leftrotation.LeftRotationMain"
+    classpath sourceSets.main.runtimeClasspath
+    standardInput = System.in
+
+    doFirst {
+        print 'You need 3 inputs\n' +
+                '1. TOTAL NUMBER OF MARATHON RUNNERS AND SELECTED TRACK LANE, for example 5 4\n' +
+                '2. PRESS ENTER\n' +
+                '3. MARATHON RUNNERS SHIRT NUMBERS, for example 1 2 3 4 5\n'
+    }
+
+}

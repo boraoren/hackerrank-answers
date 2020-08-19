@@ -1,0 +1,35 @@
+= Hackerrank > link:../../README.adoc[Domains] > link:./index.adoc[Data Structures] > `Left Rotation`
+:toc:
+:icons: font
+:imagesdir: ../../documentation/images/data-structures
+
+:domain_title: data structures
+:domain_link: link:https://www.hackerrank.com/domains/data-structures[{domain_title},window="_blank"]
+:problem_title: array-left-rotation
+:problem: link:https://www.hackerrank.com/challenges/{problem_title}/problem[arrays-left-rotation,window="_blank"]
+
+This is link:https://www.hackerrank.com[Hackerrank, window="_blank"] / {domain_link} / {problem} answer with test cases.
+
+== Story that is converted from hackerrank's question
+=== infographic format
+image::leftRotationStory.png[compare-the-triplets,600]
+
+=== text format
+* We are watching Marathon,
+- There are 5 *track lanes* using by runners for marathon
+- Referee finds problem for arrangement of marathon runners
+and he try to organize marathon runners **by selected track lane**
+
+== Run {problem_title} Project
+// run
+. run `./gradlew leftRotation`
+. You need 3 inputs
+.. `TOTAL NUMBER OF MARATHON RUNNERS` AND `SELECTED TRACK LANE`, for example `5 4`
+.. __PRESS ENTER__
+.. `MARATHON RUNNERS SHIRT NUMBERS`, for example `1 2 3 4 5`
+
+
+== {domain_title} project tests with report
+1. run `./gradlew test`
+2. open `./build/reports/tests/test/index.html`
+

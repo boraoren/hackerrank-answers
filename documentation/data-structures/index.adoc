@@ -11,19 +11,28 @@ topic question's answers with test cases.
 == Projects
 
 |===
-|Name |Type |Difficulty |Max Score |To Run
+|Name |Type |Difficulty |Max Score |To Run |Tags
 
 |link:arrays-ds.adoc[Arrays - DS]
 |Arrays
 |Easy
 |10
 |./gradlew arraysDS
+|
 
 |link:twodarray-ds.adoc[2D Array - DS]
 |Arrays
 |Easy
 |15
 |./gradlew twoArrayDS
+|
+
+|link:left-rotation.adoc[Left Rotation]
+|Arrays
+|Easy
+|20
+|./gradlew leftRotation
+|link:https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic[mod]
 
 |===
 
