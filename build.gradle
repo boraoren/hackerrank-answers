@@ -109,3 +109,25 @@ task leftRotation(type: JavaExec) {
     }
 
 }
+
+task staircase(type: JavaExec) {
+    group "hackerrank"
+    description "Run Algorithm / Staircase"
+    main "com.hr.algorithms.warmup.staircase.StaircaseMain"
+    classpath sourceSets.main.runtimeClasspath
+    standardInput = System.in
+
+    doFirst {
+        print 'You need 1 input\n' +
+                '1. STRINGER LENGTH, for example 6\n' +
+                'AND you will see output as below\n' +
+                '     #\n' +
+                '    ##\n' +
+                '   ###\n' +
+                '  ####\n' +
+                ' #####\n' +
+                '######'
+    }
+
+}
+

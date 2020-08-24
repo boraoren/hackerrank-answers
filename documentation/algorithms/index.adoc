@@ -24,6 +24,12 @@ topic question's answers with test cases.
 |Easy
 |10
 |./gradlew compareTheTriplets
+
+|link:staircase.adoc[Staircase]
+|Algorithms
+|Easy
+|10
+|./gradlew staircase
 |===
 
 
